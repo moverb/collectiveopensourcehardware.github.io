@@ -31,7 +31,7 @@ permalink: /education/reproduction_flashing/
   </tr>
 </table>
 
-There are basically two ways to upgrade the firmware of the Libre Solar hardware. For development we recommend to purchase an STM Nucleo board with integrated ST-Link/V2 debug adapter. The boards are very cheap and allow not only firmware upgrade but also debugging via the serial wire debug (SWD) interface. If you want to upgrade to an already tested new firmware version, you might aswell use the USB interface which does not need any additional hardware except for a Micro USB cable (the same as used for smart phones).
+There are basically two ways to upgrade the firmware of the Libre Solar hardware. For development we recommend to purchase a STM Nucleo board with integrated ST-Link/V2 debug adapter. The board is cheap and allows not only firmware upgrade but also debugging via the serial wire debug (SWD) interface. If you want to upgrade to an already tested new firmware version, you might aswell use the USB interface which does not need any additional hardware except for a Micro USB cable (the same which is used for smartphones).
 
 For both options, you need to install [PlatformIO](http://platformio.org/) (or a different toolchain) and [download the software source code from github](https://github.com/LibreSolar) first.
 
