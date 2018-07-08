@@ -79,4 +79,4 @@ monitor_baud = 115200
 
 Of course, you can also use your favourite IDE and the mbed command line interface.
 
-The chapter **Flashing** describes in detail how you connect the hardwar in order to upload the software to the device.
+The chapter **Flashing** describes in detail how you connect the hardware in order to upload the software to the device.
