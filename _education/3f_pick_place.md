@@ -36,14 +36,14 @@ permalink: /education/reproduction_pick_place/
     Your browser does not support the video tag.
 </video>
 
-Once the solder paste is applied to the PCB based, We now proceed with placing the electronic components.
+Once the solder paste is applied to the PCB as mentioned before, we now proceed with placing the electronic components.
 
-Here you see the different between the PCB with soldermask but without electrical parts and the PCB with electrical parts.
+In the following figure you can see the PCB with soldermask before and after placing the electrial parts:
 
 <iframe src="https://h5p.org/h5p/embed/191468" width="1091" height="617" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ### Reading the PCB layout
-Since there is a long list of components to be placed, It is easier to organize them in orderly fashion, for ex: starting with resistors of one class and then the next by referring the Items list as show below.
+Since there is a long list of components to be placed, it is easier to organize them in orderly fashion, for example: starting with resistors of one class and then the next by referring the items list as shown below.
 
 ![Reading the Blue print of PCB layout](/media_files/step_bom.jpg)
 
@@ -51,12 +51,12 @@ Since there is a long list of components to be placed, It is easier to organize 
 
 
 ### Placing the components
-The electronic components are picked up with the help of tweezers and are placed on the PCB layout, for precision a magnifier lens can be used. Look carefully for the orientation of the components.
+The electronic components are picked up with tweezers and placed on the PCB layout. For precision a magnifier lens can be helpful. Look carefully for the orientation of the components.
 
 ![Tweezers at work](/media_files/pick_place_placing_components.jpg)
 
 
 ### Inspection before proceeding to re-flow oven:
-Once the step is completed, we do an inspection to see the pins are seated on the respective markings.
+Once all components are placed, we do an inspection to see the pins are seated on the respective markings.
 
 ![Reading the Blue print of PCB layout](/media_files/pick_place_inspection_before_reflow_oven.jpg)
