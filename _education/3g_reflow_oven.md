@@ -33,25 +33,23 @@ permalink: /education/reproduction_reflow_oven/
 
 ### What is a re-flow oven
 The oven is suitable for fast soldering of entire boards in one go when working with so-called surface mounted devices (SMD).
-Typically used for very small electronic components, as they are processed in the automated production of industrial robots.
+Typically they are used for very small electronic components, as they are processed in the automated production of industrial robots.
 Soldering SMDs by hand is hard and time-staking. It can be done in 5-10 mins with the reflow oven.
 ![First look of re-flow oven](/media_files/reflow_display_options.jpg)
 
 ### Working with re-flow oven
 
-This process starts once the components are physically placed on top of the PCB board and glued with the help of thermal paste with the help of magnifying lens.
+This process starts once the components are physically placed on the PCB board and glued with the help of thermal paste (see step before).
 
-The oven has a four pre-programmed temperature curves also called as wave, which are selected based type of solder material and thermal limits of the components used. For this purpose, we have chosen curve 2 which fits to our
+The oven has four pre-programmed temperature curves (waves). You choose the curve which fits to your solder material and the thermal limits of the components. For this purpose, we have chosen curve 2 which fits best to our requirements.
 
-Once the casing is closed and the oven is started, one can see the moving point on the temperature curve to know the status of the process. It typically took us 7 mins and once can hear a beep sound at the end of the process.
+Once the casing is closed and the oven is started, you can follow the temperature curve to know the status of the process. It typically took us 7 minutes.
 ![Placing the BMS Inside the reflow oven](/media_files/reflow_placing_equipment.jpg)
 
 ### Optical evaluation of finished board.
 
-Since the electronic components were seated manually over the PCB there is a high probability of human error. The component was put under optical evaluation using a microscope to check displaced contacts or the pins are in line with the sockets.
+Since the electronic components were seated manually on the PCB there is a high probability of human error. The component was put under optical evaluation using a microscope to check displaced contacts or if the pins are in line with the sockets.
 
-If an error is found, the electronic components are electronically unseated and soldered onto an appropriate position.
-
-With this we end the re-flow oven step.
+If an error was found, the electronic component was removed with a soldering gun and soldered in an appropriate position.
 
 ![Setting the power curve - wave 2](/media_files/reflow_progress_curve.jpg)
