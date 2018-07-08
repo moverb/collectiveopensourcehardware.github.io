@@ -38,7 +38,7 @@ permalink: /education/reproduction_pcb_order/
 
 ------------------------------------------------
 
-The first step to build up the hardware is ordering a PCB. Most of the Libre Solar components are too complex to be produced at home, so you will have to order the PCBs. This step-by-step guide will show how to obtain all necessary data for the fab house. We will use the Libre Solar MPPT charge controller as an example, but the steps are the same for all other projects.
+The first step to build up the hardware is ordering a PCB. Most of the Libre Solar components are too complex to be produced at home, so it is easier for you to order the PCBs. This step-by-step guide will show how to obtain all necessary data for the fab house. We will use the Libre Solar MPPT charge controller as an example, but the steps are the same for all other projects.
 
 ## Download of hardware files
 
@@ -72,7 +72,7 @@ In KiCad, the part properties like manufacturer, part number, etc. are defined i
 - OrderNumber (optional)
 - Remarks (optional)
 
-A list of all parts can be exported using the BOM export features of KiCad Eeschema unter *Tools > Generate Bill of Materials*. By default, there is no export plugin installed in KiCad.
+A list of all parts can be exported using the BOM export features of KiCad Eeschema under *Tools > Generate Bill of Materials*. By default, there is no export plugin installed in KiCad.
 
 We recommend to use the KiBoM plugin by SchrodingersGat for CSV export. A guide how to install and use it can be found in the [KiBoM github repository](https://github.com/SchrodingersGat/KiBoM).
 
@@ -80,19 +80,21 @@ Most distributors provide a BOM import feature so that you can directly use the 
 
 ## PCB manufacturing
 
-There are two options to send the manufacturing data of a PCB designed in KiCAD.
+There are two options to send the manufacturing data of a PCB designed in KiCAD:
 
 ### Native KiCAD files
 
-More and more PCB manufacturers accept native KiCAD board files (extension .kicad_pcb). This is the easiest way to get your PCB produced. Just upload the .kicad_pcb file and you are done.
+More and more PCB manufacturers accept native KiCAD board files (extension .kicad_pcb). This is the easiest way to get your PCB produced. So you just have to upload the .kicad_pcb file.
 
 ### KiCAD Gerber export
 
-The Gerber export is a little bit more complicated.
+If the manufacturer does not accept native files you can use the Gerber export which is a little bite more complicated.
 
-After opening your board in Pcbnew, make sure that your solder mask clearance and min width are set to zero. This is important because the manufacturers normally want to define the clearance themselves based on their process. Setting it to zero makes it easier for them to shrink/enlarge the pads for the solder mask. You find the dialogue under *Dimensions > Pads to Mask Clearance*:
+After opening your board in Pcbnew, make sure that your solder mask clearance and min width are set to zero at the dialogue window under *Dimensions > Pads to Mask Clearance*:
 
 ![Pads and Mask Clearance dialog](/media_files/docs_kicad_pads_clearance.png)
+
+This is important because the manufacturers normally want to define the clearance themselves based on their process. Setting it to zero makes it easier for them to shrink/enlarge the pads for the solder mask.
 
 After that, open the Gerber export dialog under *File > Plot* and select at least the following layers for export:
 
@@ -105,12 +107,12 @@ After that, open the Gerber export dialog under *File > Plot* and select at leas
 - F.Mask (Front solder mask)
 - Edge.Cuts (Margins where the PCB should be cut by milling)
 
-Select a folder where your files should be saved and press *Plot*:
+Select a folder where your files should be saved and select *Plot*:
 
 ![Gerber Export Settings](/media_files/docs_kicad_gerber_export.png)
 
-After sucessful export, press *Generate Drill Files*. Select the same output directory and make sure that *Merge PTH and NPTH holes into one file* is **not** checked. Otherwise, your manufacturer doesn't know which holes are copper plated or not.
+After sucessful export, select *Generate Drill Files*. Select the same output directory and make sure that *Merge PTH and NPTH holes into one file* is **not** checked. Otherwise, your manufacturer doesn't know which holes are copper plated and which are not.
 
 ![Gerber Export Settings](/media_files/docs_kicad_drill_file.png)
 
-After that you should have all files necessary for the PCB production. Compress all files (gerber and drill files) to a .zip file and send them to the manufacturer.
+Afterwards you have all necessary files for the PCB production. Compress all files (gerber and drill files) to a .zip file and send them to the manufacturer.
